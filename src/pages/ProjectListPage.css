@@ -1,0 +1,41 @@
+.container-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project {
+  background-color: azure;
+  border-radius: 1rem;
+  color: var(--primary-color);
+  padding: 2rem;
+  width: 20rem;
+  transition: 300ms;
+  cursor: pointer;
+  list-style: none;
+
+  button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color)
+}
+
+.project:hover {
+  transform: translateX(1rem) rotate(5deg);
+}
+
+.btn-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
